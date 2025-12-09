@@ -1,23 +1,44 @@
-# 🎥 Real-Time Collaboration Platform
+# Real-Time Collaboration Platform
 
-WebRTC-based collaboration suite for teams.
+A WebRTC-based real-time collaboration platform with Socket.io.
 
 ## Features
-- Real-time video/audio conferencing
-- Screen sharing and whiteboarding
-- Collaborative document editing
-- File sharing and management
-- Chat and messaging
-- Recording and playback
-- Enterprise security
+
+- Video/audio calls
+- Real-time messaging
+- Room management
+- WebRTC integration
+- Socket.io for signaling
 
 ## Tech Stack
-- React + TypeScript
-- WebRTC
-- Socket.io
-- Node.js
-- MongoDB
+
+- **Backend**: Node.js, Express, Socket.io
+- **Frontend**: React
+- **WebRTC**: Native WebRTC API
+
+## Project Structure
+
+\`\`\`
+real-time-collaboration/
+├── src/
+│   ├── services/        # WebRTC service
+│   ├── components/      # React components
+│   └── index.js         # Socket.io server
+└── package.json
+\`\`\`
+
+## Installation
+
+\`\`\`bash
+npm install
+\`\`\`
+
+## Usage
+
+\`\`\`bash
+npm start
+\`\`\`
 
 ---
 
-**POWERED BY L8AB SYSTEMS** ⚡
+**POWERED BY L8AB SYSTEMS**
